@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+#Pie-Pagina-Feed{
+    position: fixed;
+    width: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+#P-propiedades{
+    display: flex;
+    padding: 10px;
+    border-radius: 50%;
+    width: 16px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    
+}
+#titulo-pie-pagina{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#chart-pie-pagina{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+.imagenes-feed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    
+}
+.imagenes-feed-ultima{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12%;    
+}
+
+.resolucion-img-feed-1{
+    width: 330px;
+    height: 330px;
+    margin-top: 14%;
+    margin-bottom: 2%;
+    
+}
+
+.resolucion-img-feed{
+    width: 330px;
+    height: 330px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+.contenedor-feed-img-piepagina{
+    display: flex;
+    flex-direction: row;
+    width: 78%;
+    justify-content:left;
+    align-items: center;
+    
+    
+}
+
+.usuario-e-icono{
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+.usuario-feed{
+    width: 50%;
+    display: flex;
+    margin-left:16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.valoraciones-feed-iconos{
+    display: flex;
+    margin: -33px;
+}
+
+#estrella{
+    margin: 1px;
+}
+#estrella:hover{
+    margin: 1px;
+    color: yellow;
+}
+
+
+
+
+
+
+
+.footer{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+#separacion-footer{
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+#tamaño-iconos-footer{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
