@@ -1,0 +1,152 @@
+@media only screen and (max-width:768px){
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #Pie-Pagina-Feed{
+        height: 9vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        top:0;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #P-propiedades{
+        display: flex;
+        padding: 10px;
+        border-radius: 50%;
+        width: 16px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+    }
+
+    #titulo-pie-pagina{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size:30px;
+    }
+
+    #chart-pie-pagina{
+        font-size: 25px;
+        margin-right: 5px;
+    }
+
+    .usuario-e-icono{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 7px;
+        border: 1px solid;
+    }
+
+    #circulo-feed-piefoto{
+        position: absolute;
+        top: 12%;
+        right: 86%;
+        font-size: 23px;
+    }
+
+    .usuario-feed{
+        position: absolute;
+        top: 12%;
+        right: 57%;
+    }
+
+    .valoraciones-feed-iconos{
+        display: flex;
+        margin: -33px;
+        position: absolute;
+        top: 17%;
+        right: 15%;
+        font-size: 20px;
+    }
+
+    .imagenes-feed{
+        position: absolute;
+        top: 17%;
+        right: 7.5%;
+        width: 85%;     
+        height:300px;
+        display:flex;
+
+    }
+
+    #resolucion-img-feed{
+        height: 100%;
+        width: 100%;
+    }
+
+    #comment-input{
+        position: fixed;
+        top: 64%;
+        right: 20.5%;
+        width:250px;
+        padding: .25rem;
+        border-radius: 6px;
+    }
+
+    #send{
+        position: absolute;
+        top: 64%;
+        right: 8%;
+        font-size: 30px;
+        color: blue;
+    }
+
+    #comment-box{
+        position: absolute;
+        top: 71%;
+        right: 7%;
+        height: 120px;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: .15rem;
+    }
+
+    #comment-box div{
+        border: 1px solid;
+        margin-bottom: 5px;
+        padding: .2rem;
+        display: flex;
+    }
+
+    .circulo-comments{
+        border-radius: 50%;
+        border: 1px solid;
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+        font-size: 10px;
+        color: black;
+        background-color: lightgrey;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 7vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        font-size: 20px;
+    }
+
+    #circulo-cruz{
+        border-radius: 50%;
+        border: 1px solid;
+        padding: .3rem;
+    }
+
+
+}
