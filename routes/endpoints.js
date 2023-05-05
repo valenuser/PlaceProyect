@@ -1,8 +1,14 @@
 const express = require('express')
+const pool= require('../database')
 const Router = express.Router()
 
 Router.get('/',(req,res)=>{
-    res.json({'status':'ok'})
+    pool.query('select * from usuario',(err,response)=>{
+        if(response){
+            console.log('conectada');
+            res.json({'status':'ok'})
+        }
+    })
 })
 
 Router.post('/',(req,res)=>{
