@@ -1,0 +1,25 @@
+
+@media only screen and (max-width:768px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    #PrevSeeImage{
+        width: 100%;
+        height: 70vh;
+        border: 1px solid black;
+    }
+
+    #postForm{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    input{
+        width: 300px;
+        margin: 15px;
+    }
+}
